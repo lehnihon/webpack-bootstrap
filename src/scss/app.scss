@@ -1,0 +1,48 @@
+/* By Athlon Front-End Team */
+
+@import "~bootstrap/scss/bootstrap";
+
+/* Core variables */
+@import 'base/vars';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Mixins, helpers and functions */
+@import 'base/mixins';
+
+
+body {
+  background: $body-background-color;
+  color: $foreground-color;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  font-size: 2em;
+  margin: 20px;
+  color: $caption-color;
+  text-align: center;
+  background: $foreground-color url('../images/design/heading.png') center 20px no-repeat;
+  padding: 60px 30px 30px;
+  background-size: 160px;
+}
+
+main {
+  color: $foreground-color;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: $link-color;
+}
+
+address {
+  color: $accent-color;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+}
